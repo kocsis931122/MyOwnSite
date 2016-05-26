@@ -1,0 +1,189 @@
+body{
+  font-family: sans-serif;
+}
+h3{
+  margin: 2em 0 0 0;
+  text-transform: uppercase;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+}
+h1{
+  font-family: 'Georgia', sans-serif;
+
+}
+p{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+}
+li{
+  line-height: 150%;
+}
+#red{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, red);
+}
+#blue{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, blue);
+}
+#green{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, green);
+}
+#yellow{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, yellow);
+}
+#brown{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, brown);
+}
+#black{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, black);
+}
+#purple{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, purple);
+}
+#pink{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, pink);
+}
+#grey{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, grey);
+}
+#orange{
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background: linear-gradient(to right, white, orange);
+}
+
+.page_content{
+  margin-left: 120px;
+  width: auto;
+}
+.page_content .preamble{
+  margin-right: 120px
+}
+
+.content{
+  width: 1000px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 120px;
+}
+.content .story{
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Impact, Charcial, sans-serif;
+  text-transform: uppercase;
+  line-height: 120px;
+  letter-spacing: .020em;
+}
+.content .false_story{
+  font-family: Comic Sans MS, cursive, sans-serif;
+  font-size: 12px;
+  position: absolute;
+  top: 200px;
+  line-height: 120px;
+}
+.content .story strong{
+  font-size: 10px;
+}
+.content .false_story strong{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: grey;
+}
+#nav{
+  width: 100%;
+  height: 200px;
+  background: url(123.jpg);
+  background-size: cover;
+}
+#nav_wrapper{
+  height: 100px;
+  width: 550px;
+  background: radial-gradient(grey, black);
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 50px;*/
+  opacity: 0.7;
+
+
+}
+#nav_wrapper ul li{
+ list-style: none;
+  display: inline;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#nav_wrapper a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+#nav_wrapper ul li:hover{
+  background: grey;
+  transition: all 0.45s;
+  opacity: 0.5;
+}
+#contact{
+  margin-top: 50px;
+}
+#contact .contact_row{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact .contact_row_message{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+label{
+  font-family: Comic Sans MS, cursive, sans-serif;
+  display: block;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+button{
+  margin-top: 10px;
+  display: block;
+}
+#sendBtn{
+  width: 100px;
+  -webkit-transition: all .2s;
+  background-color: #e3e3e3;
+  line-height: 30px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .5),
+    1px 1px 5px rgba(0, 0, 0, .3);
+}
+#sendBtn:hover{
+  background-color: #333;
+  color: #e3e3e3;
+}
+input{
+  width: 367px;
+}
+.announcements{
+
+}
+footer{
+  clear: both;
+  margin-top: 2%;
+  border-top: 1px #ccc solid;
+  padding 1% 0%;
+}
+.footer-text{
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}

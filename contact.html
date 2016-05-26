@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Own Site</title>
+</head>
+<body>
+
+<header>
+  <div id="nav">
+    <div id="nav_wrapper"><br>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="custom.html">Custom</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="content">
+<form name="contact" id="contact">
+  <div class="contact_row">
+    <label for="name_lbl">Name: </label>
+    <input type="text" id="name" onchange="validateContactData();" placeholder="Enter your name">
+  </div>
+  <div class="contact_row">
+    <label for="email_lbl">Email: </label>
+    <input type="text" id="email" onchange="validateContactData();" placeholder="Give your email">
+  </div>
+  <div class="contact_row_message">
+    <label for="message_lbl">Message: </label>
+    <textarea id="message" rows="10" cols="50" onchange="validateContactData();" placeholder="Write message"></textarea>
+    <button type="button" id="sendBtn" onclick="sendMessage();">SEND</button>
+  </div>
+</form>
+</div>
+
+<footer>
+  <p class="footer-text">Copyright 2016 - Anonymous Source</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
